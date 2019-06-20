@@ -1,0 +1,74 @@
+.textPart {
+    display: flex;
+    flex-direction: wrap;
+    justify-content: space-around;
+    position: relative;
+    width: 200x;
+    height: 500px;
+}
+
+.hireus {
+    border-radius: 25px;
+    background: grey;
+    padding: 20px;
+    width: 100px;
+    height: 15px;
+}
+
+.purpleDot {
+    height: 225px;
+    width: 125px;
+    background-color: rgba(215, 110, 145, 0.5);
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 10%;
+    bottom: 10%;
+    left: 60%;
+}
+
+.orangeDot {
+    height: 130px;
+    width: 75px;
+    background-color: rgba(255, 218, 185, 0.5);
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 30%;
+    bottom: 10%;
+    left: 70%;
+}
+
+.pinkDot {
+    height: 120px;
+    width: 70px;
+    background-color: rgba(128, 0, 128, 0.5);
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 20%;
+    bottom: 10%;
+    left: 70%;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+
+.scrollUp {
+    border-radius: 25px;
+    background: grey;
+    padding: 20px;
+    width: 100px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+}
+
